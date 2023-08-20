@@ -1,0 +1,131 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+
+#header{
+    background-image: url(../images/main.png);
+    background-size: cover;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-position: center;    
+}
+.login{
+    position: absolute;
+    right: 1%;
+    top: 10px;
+    color:white;
+}
+span{
+    /* margin-right: 5px; */
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 6px;
+}
+span a{
+    text-decoration : none;
+    color: white;
+}
+.logo{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    left:47%;    
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 49%;
+    color: red;
+    font-size: 58px;
+    padding: 0%;
+}
+.logo span{
+    color: red;
+    margin-left: 25%;
+    position: absolute;
+    top: 9%;
+    left: -4px;
+    text-decoration: none;
+}
+.restorant-search{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 65%;
+    left: 27%;
+}
+.select1{
+    height: 49px;
+    width: 197px;
+    border-radius: 5px;
+}
+.selectt2{
+    height: 49px;
+    width: 356px;
+    border-radius: 5px;
+    word-spacing: 4px;
+}
+.quick-search {
+    margin-left: 4%;
+    margin-top: 4%;
+    width: 90%;
+    display: inline-block;
+    color: #192F60;
+    opacity: 1;
+}
+#quickHeading:hover {
+    font-size: 50px;
+}
+.quick-dis{
+    color: #8C96AB;
+    opacity: 1;
+}
+.mainmenucontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    justify-content: start;
+    align-items: center;
+}
+.mainmenucontainer>div{
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    height: 150px;
+    width: 330px;
+    box-shadow: 0px 0px 12px grey;
+}
+.mainmenucontainer div img{
+    height: 150px;
+    width: 150px;
+    /* object-fit: contain; */
+}
+.details h5{
+    position: absolute;
+    left: 20%;
+    font-size: 22px;
+    margin-left: 35%;
+    color: #192F60;
+    opacity: 1;
+}
+.details p{
+    position: absolute;
+    top: 19%;
+    margin-left: 20px;
+    color: #8C96AB;
+    opacity: 1;
+}
+.mainmenucontainer>div:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+   transform: scale(1.2); 
+}
+
+    
+
+
